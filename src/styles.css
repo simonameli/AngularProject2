@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.glyphicon-heart:before{
+  content: "\e005";
+}
