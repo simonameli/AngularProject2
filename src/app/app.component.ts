@@ -17,7 +17,7 @@ tweet={
  
 onClick(){
   this.tweet.isLiked = !this.tweet.isLiked;
-  this.counter();
+  this.tweet.likesCount += (this.tweet.likesCount) ? -1 : 1; // counter()
 }
 
 counter(){

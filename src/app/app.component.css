@@ -1,0 +1,10 @@
+.glyphicon-heart:before{
+  content: "\e005";
+}
+.glyphicon{
+  color: #ccc;
+  cursor: pointer;
+}
+.glyphicon-heart{
+  color:deeppink;
+}

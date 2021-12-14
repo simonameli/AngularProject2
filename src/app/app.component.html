@@ -1,7 +1,9 @@
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" />
 
-<span class="glyphicon" 
+<!-- questa parte andrebbe nel nuovo componente e poi riportata qui. Per far comunicare i due componenti avremo utilizzato @Input di isLiked e @Input di likesCount -->
+
+<span class="glyphicon glyphicon-heart" 
 [class.glyphicon-heart]="tweet.isLiked"
 [class.glyphicon-heart-empty]="!tweet.isLiked" 
 (click)= "onClick()"></span>
